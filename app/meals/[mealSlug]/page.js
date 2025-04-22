@@ -1,10 +1,9 @@
 import React from "react";
 
-const MealsSlug = ({ params }) => {
+const MealsSlug = () => {
   return (
     <>
-      <p>{params.slug}</p>
-      <p></p>
+      <h1>Meal Details</h1>
     </>
   );
 };
